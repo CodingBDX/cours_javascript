@@ -18,3 +18,19 @@ while (phrase < phrase.length) {
 }
 
 console.log(phrase)
+
+
+let x = Math.random()
+
+while (x < 0.9) {
+  x = Math.random()
+  console.log(x)
+  
+}
+
+
+let x2
+do {
+  x2 = Math.random()
+  console.log(x)
+} while(x < 0.9)
